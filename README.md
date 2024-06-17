@@ -67,6 +67,9 @@
    systemctl enable zabbix-agent
 
 ```
+![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-24-56.png)
+![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-25-49.png)
+![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-31-56.png)
 
 ![img](img/Screenshot from 2024-06-09 22-24-56.png)
 ![img](img/Screenshot from 2024-06-09 22-25-49.png)
