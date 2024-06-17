@@ -68,9 +68,9 @@
 
 ```
 
-![Hosts](https://github.com/bris91/9-01/blob/029f9f5498f148b9891aedab5ca7585a54c6c5ce/img/Screenshot%20from%202024-06-09%2022-24-56.png)
-![Log](https://github.com/bris91/9-01/blob/029f9f5498f148b9891aedab5ca7585a54c6c5ce/img/Screenshot%20from%202024-06-09%2022-25-49.png)
-![Latest data](https://github.com/bris91/9-01/blob/029f9f5498f148b9891aedab5ca7585a54c6c5ce/img/Screenshot%20from%202024-06-09%2022-31-56.png)
+![img](img/Screenshot from 2024-06-09 22-24-56.png)
+![img](img/Screenshot from 2024-06-09 22-25-49.png)
+![img](img/Screenshot from 2024-06-09 22-31-56.png)
 
 ....
 ....
