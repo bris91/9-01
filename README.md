@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Git`" - `Lebedev Boris`
+# Домашнее задание к занятию "Система мониторинга Zabbix" - `Lebedev Boris`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -26,12 +26,18 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. sudo apt install postgresql
+   wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-elease/zabbix-release_7.0-1+ubuntu22.04_all.deb
+   sudo dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
+   apt update
+   apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+   sudo -u postgres createuser --pwprompt zabbix
+   sudo -u postgres createdb -O zabbix zabbix
+   zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+   sudo nano /etc/zabbix/zabbix_server.conf DBPassword=
+   systemctl restart zabbix-server zabbix-agent apache2
+   systemctl enable zabbix-server zabbix-agent apache2 
+ 
 https://github.com/bris91/8-01-hw/commit/0a9311e0386a71164231ffe28a552fc42505c5e9
 
 ```
@@ -52,12 +58,12 @@ https://github.com/bris91/8-01-hw/commit/0a9311e0386a71164231ffe28a552fc42505c5e
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-1+ubuntu22.04_all.deb
+   dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
+   apt update
+   apt install zabbix-agent
+   systemctl restart zabbix-agent
+   systemctl enable zabbix-agent
 
 ```
 https://github.com/bris91/8-01-hw/commit/c3bc9ce1437ccc63ee221e40577c6e19109774cd
