@@ -60,18 +60,18 @@
 `Приведите ответ в свободной форме........`
 
 1. wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-1+ubuntu22.04_all.deb
-   dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
-   apt update
-   apt install zabbix-agent
-   systemctl restart zabbix-agent
-   systemctl enable zabbix-agent
+2. dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
+3. apt update
+4. apt install zabbix-agent
+5. systemctl restart zabbix-agent
+6. systemctl enable zabbix-agent
 
-```
-![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-24-56.png)
 
-![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-25-49.png)
+![Hosts](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-24-56.png)
 
-![alt text](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-31-56.png)
+![log](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-25-49.png)
+
+![Latest data](https://github.com/bris91/9-01/blob/ee480f8b1ac3c763887fb8acce6faba1c93de55d/img/Screenshot%20from%202024-06-09%2022-31-56.png)
 
 ![img](img/Screenshot from 2024-06-09 22-24-56.png)
 
