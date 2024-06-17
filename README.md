@@ -61,7 +61,6 @@ https://github.com/bris91/8-01-hw/commit/0a9311e0386a71164231ffe28a552fc42505c5e
 
 ```
 https://github.com/bris91/8-01-hw/commit/c3bc9ce1437ccc63ee221e40577c6e19109774cd
-https://github.com/bris91/8-01-hw/commit/c3bc9ce1437ccc63ee221e40577c6e19109774cd
 
 ....
 ....
